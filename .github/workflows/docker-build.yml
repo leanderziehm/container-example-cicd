@@ -8,6 +8,9 @@ on:
       - "requirements.txt"
       - "pyproject.toml"
       - "Dockerfile"
+      - ".github/workflows/**"
+  
+  workflow_dispatch:   #  manual trigger
 
 jobs:
   build-and-push:
