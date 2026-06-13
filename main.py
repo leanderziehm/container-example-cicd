@@ -1,4 +1,4 @@
-from Fastapi import FastAPI # does capitalization matter in python?
+from fastapi import FastAPI # does capitalization matter in python?
 # todo add cors
 
 app = FastAPI()
